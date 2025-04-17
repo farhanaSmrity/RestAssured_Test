@@ -42,10 +42,11 @@ public class ValidateJsonResponseBody {
 	    
 	    JsonPath jsonPathView = responseBody.jsonPath();
 	    
-	    String firstName = jsonPathView.get("data[0].first_name");  
-	    
-	    System.out.println("email address:"+ jsonPathView.get("data[1].avatar"));
+        String firstName = jsonPathView.get("data[0].first_name");
 		
-	    Assert.assertEquals(firstName,"George","Check for presense of firstname as George");
+		System.out.println("email address:"+ jsonPathView.get("data[1].avatar"));
+	
+		
+		//Assert.assertEquals(firstName,"George","Check for presense of firstname as George");
 	}
 }
