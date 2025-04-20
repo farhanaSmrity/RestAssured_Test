@@ -47,6 +47,6 @@ public class ValidateJsonResponseBody {
 		System.out.println("email address:"+ jsonPathView.get("data[1].avatar"));
 	
 		
-		//Assert.assertEquals(firstName,"George","Check for presense of firstname as George");
+		Assert.assertEquals(firstName,"George","Check for presense of firstname as George");
 	}
 }
