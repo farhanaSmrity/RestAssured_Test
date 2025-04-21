@@ -1,5 +1,6 @@
 package session08;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -42,6 +43,6 @@ public class Authorization {
 	    // print response body
 	    System.out.println("Digest auth Response status" + response.statusLine());
 	    System.out.println("Digest auth Response body:" + response.body().asString());
-		
+		Assert.assertEquals(response.statusCode()/*actual*/ ,200);
 	}
 }

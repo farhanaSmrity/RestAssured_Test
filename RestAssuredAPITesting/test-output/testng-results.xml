@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T10:34:29 GMT+06:00" name="Default suite" finished-at="2025-04-20T10:34:33 GMT+06:00" duration-ms="3389">
+  <suite started-at="2025-04-21T09:54:29 GMT+06:00" name="Default suite" finished-at="2025-04-21T09:54:33 GMT+06:00" duration-ms="3837">
     <groups>
     </groups>
-    <test started-at="2025-04-20T10:34:29 GMT+06:00" name="Default test" finished-at="2025-04-20T10:34:33 GMT+06:00" duration-ms="3389">
-      <class name="session08.Authorization">
-        <test-method signature="BasicAuth()[pri:0, instance:session08.Authorization@17046283]" started-at="2025-04-20T10:34:29 GMT+06:00" name="BasicAuth" finished-at="2025-04-20T10:34:31 GMT+06:00" duration-ms="2183" status="PASS">
+    <test started-at="2025-04-21T09:54:29 GMT+06:00" name="Default test" finished-at="2025-04-21T09:54:33 GMT+06:00" duration-ms="3837">
+      <class name="session09.AuthorizationDemo">
+        <test-method signature="BearerToken()[pri:0, instance:session09.AuthorizationDemo@70e8f8e]" started-at="2025-04-21T09:54:29 GMT+06:00" name="BearerToken" finished-at="2025-04-21T09:54:32 GMT+06:00" duration-ms="3762" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BasicAuth -->
-        <test-method signature="DigestAuth()[pri:0, instance:session08.Authorization@17046283]" started-at="2025-04-20T10:34:31 GMT+06:00" name="DigestAuth" finished-at="2025-04-20T10:34:33 GMT+06:00" duration-ms="1150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DigestAuth -->
-      </class> <!-- session08.Authorization -->
+        </test-method> <!-- BearerToken -->
+      </class> <!-- session09.AuthorizationDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
