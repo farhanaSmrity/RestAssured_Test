@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="session07.QueryParameterDemo">
+      <class name="session10.AuthorizationDemo">
         <methods>
-          <include name="filterData"/>
+          <include name="GetWeatherDataByCity"/>
         </methods>
-      </class> <!-- session07.QueryParameterDemo -->
+      </class> <!-- session10.AuthorizationDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
