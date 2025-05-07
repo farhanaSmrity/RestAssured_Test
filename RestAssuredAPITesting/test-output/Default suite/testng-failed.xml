@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="session12.DeserializeJSONDemo">
+      <class name="session14.ValidateXMLResponse">
         <methods>
-          <include name="CreateUser"/>
+          <include name="GetTravellersData"/>
         </methods>
-      </class> <!-- session12.DeserializeJSONDemo -->
+      </class> <!-- session14.ValidateXMLResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
