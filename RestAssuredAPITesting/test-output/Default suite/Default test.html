@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 07 14:48:04 GMT+06:00 2025</td>
+<td>Started on:</td><td>Thu May 08 15:04:02 GMT+06:00 2025</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1812 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3474 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='session14.ValidateXMLResponse.GetTravellersData()'><b>GetTravellersData</b><br>Test class: session14.ValidateXMLResponse</td>
-<td><div><pre>io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
-	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
-	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
-	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
-	at session14.ValidateXMLResponse.GetTravellersData(ValidateXMLResponse.java:48)
+<td title='session15.JSONObjectUsingJavaMapDemo.createUser()'><b>createUser</b><br>Test class: session15.JSONObjectUsingJavaMapDemo</td>
+<td><div><pre>java.lang.AssertionError: check for status code. expected [201] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at session15.JSONObjectUsingJavaMapDemo.createUser(JSONObjectUsingJavaMapDemo.java:70)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -108,21 +110,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1252)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
-	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:205)
-	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:258)
-	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:288)
-	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
-	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
-	... 29 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1712666248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1712666248'><pre>io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
-	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1039)
-	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:423)
-	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
-	at session14.ValidateXMLResponse.GetTravellersData(ValidateXMLResponse.java:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace505635448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace505635448'><pre>java.lang.AssertionError: check for status code. expected [201] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at session15.JSONObjectUsingJavaMapDemo.createUser(JSONObjectUsingJavaMapDemo.java:70)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -149,18 +144,9 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premat
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1252)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
-	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:205)
-	at groovy.xml.XmlSlurper.parse(XmlSlurper.java:258)
-	at groovy.xml.XmlSlurper.parseText(XmlSlurper.java:288)
-	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:840)
-	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1032)
-	... 29 more
 </pre></div></td>
-<td>1</td>
-<td>session14.ValidateXMLResponse@17046283</td></tr>
+<td>3</td>
+<td>session15.JSONObjectUsingJavaMapDemo@17046283</td></tr>
 </table><p>
 </body>
 </html>
